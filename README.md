@@ -2,7 +2,7 @@
 
 Local Windows desktop testing helper, usable from a CLI or any MCP stdio client. It is independent of Codex and Claude Code subscriptions. Each developer runs their own copy on their own logged-in Windows desktop; this is not a remote desktop service.
 
-Created by John Lee, [Recherche Solutions LLC](https://recherchesolutions.com).
+Created by John Lee, [Recherche Solutions LLC](https://recherchesolutions.com). Free for anyone to use under the [MIT License](LICENSE).
 
 ## Requirements
 
@@ -135,3 +135,7 @@ This writes `release\windows-ui-bridge-v0.1.0.zip` and a `.sha256` file. The zip
 - [Claude Code local stdio MCP](https://code.claude.com/docs/en/mcp#option-3-add-a-local-stdio-server)
 
 Client-specific configuration is documented and packaged. Protocol and local Windows behavior must be tested separately from claims about every client or other computer.
+
+## License
+
+[MIT](LICENSE): free to use, copy, modify and distribute, including commercially. Keep the copyright notice. Provided as is, without warranty.

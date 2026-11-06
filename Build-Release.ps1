@@ -2,7 +2,7 @@ param([string]$Version='0.1.0')
 $ErrorActionPreference='Stop'
 $root=$PSScriptRoot
 # Only distributable source and the pinned wheel; never .venv, .state, caches or local MCP configuration.
-$files='README.md','Setup.cmd','Setup.ps1','bridge.py','invoke_supervisor.py','uia3_worker.py','worker.ps1','smoke_test.py','test_fixture.ps1','requirements.txt','requirements.lock'
+$files='README.md','LICENSE','Setup.cmd','Setup.ps1','bridge.py','invoke_supervisor.py','uia3_worker.py','worker.ps1','smoke_test.py','test_fixture.ps1','requirements.txt','requirements.lock'
 $name="windows-ui-bridge-v$Version"
 $stage=Join-Path ([IO.Path]::GetTempPath()) ([guid]::NewGuid().ToString('n'));$pkg=Join-Path $stage $name
 New-Item -ItemType Directory -Force (Join-Path $pkg 'wheels')|Out-Null
